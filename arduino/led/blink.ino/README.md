@@ -21,3 +21,12 @@ You can find the Arduino sketch here:
 ### `setup()`
 This function runs **once** when the Arduino starts.  
 - `pinMode(13, OUTPUT);` sets pin 13 as an output so it can send voltage to the LED.
+
+### `loop()`
+This function runs **forever**, repeating the instructions inside.  
+- `digitalWrite(13, HIGH);` turns the LED on.  
+- `delay(500);` waits 0.5 second (500 ms).
+- `digitalWrite(13, LOW);` turns the LED off.  
+- `delay(500);` waits 0.5 second again.  
+
+Together, this makes the LED blink on and off every 0.5 second.
