@@ -1,5 +1,6 @@
 # Basic LED Blink
 First Arduino project in my Robotics class: learning to blink an LED.
+**Date:** October 4, 2025
 
 
 ## Theory
@@ -14,6 +15,7 @@ We use a resistor to limit the current and protect the LED.
 
 ## Code
 You can find the Arduino sketch here:
+[blink.ino](./blink.ino)
 
 
 ## Code Explanation
