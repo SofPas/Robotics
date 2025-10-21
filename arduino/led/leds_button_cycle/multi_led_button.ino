@@ -8,8 +8,7 @@ bool oldSwitchState = LOW;
 bool newSwitchState = LOW;
 byte state = 0;
 
-void setup ()
-{
+void setup () {
   Serial.begin (9600);
 
   pinMode (pin_LEDblue, OUTPUT);
@@ -27,7 +26,7 @@ void setup ()
   pinMode (pin_switch, INPUT);
 }
 
-void loop ()
+void loop () {
   newSwitchState = digitalRead (pin_switch);
   if (newSwitchState != oldSwitchState)
   {
@@ -49,7 +48,7 @@ void loop ()
         digitalWrite (pin_LEDgreen, HIGH);
       }      
       if (state == 3) {
-        digiralWrite (pin_LEDyellow, HIGH);
+        digitalWrite (pin_LEDyellow, HIGH);
       }
       if (state == 4) {
         digitalWrite (pin_LEDred, HIGH);
