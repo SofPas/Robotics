@@ -4,6 +4,7 @@ int sensorValue = 0;
 
 void setup() {
   pinMode (buzzPin, OUTPUT);
+  pinMode(sensorPin, INPUT);
   Serial.begin (9600);
 }
 
