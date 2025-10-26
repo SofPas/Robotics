@@ -6,6 +6,7 @@ int B = 3;
 int A = 2;
 int F = 8;
 int G = 9;
+int timer = 1000;
 
 void setup() {
   pinMode (E, OUTPUT);
@@ -119,29 +120,29 @@ void nine() {
 
 void loop() {
   one();
-  delay(1000);
+  delay(timer);
 
   two();
-  delay(1000);
+  delay(timer);
 
   three();
-  delay(1000);
+  delay(timer);
 
   four();
-  delay(1000);
+  delay(timer);
 
   five();
-  delay(1000);
+  delay(timer);
 
   six();
-  delay(1000);
+  delay(timer);
 
   seven();
-  delay(1000);
+  delay(timer);
 
   eight();
-  delay(1000);
+  delay(timer);
 
   nine();
-  delay(1000);
+  delay(timer);
 }
