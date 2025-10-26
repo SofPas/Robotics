@@ -1,6 +1,6 @@
 # 7-Segment Display Numbers
 
-**Date:** October 25, 2025  
+**Date:** October 18, 2025  
 Arduino project in my Robotics class.  
 We learned how to control a 7-segment display to show numbers from 1 to 9.
 
