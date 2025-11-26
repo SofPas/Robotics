@@ -1,6 +1,6 @@
 # Servo Sweep with Indicator LEDs
 
-**Date:** October 29, 2025
+**Date:** November 1, 2025
 Arduino project in my Robotics class.
 We learned how to sweep a servo motor back and forth while using LEDs to signal when the servo reaches the endpoints.
 
