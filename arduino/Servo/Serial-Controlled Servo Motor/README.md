@@ -1,6 +1,6 @@
 # Serial-Controlled Servo Motor
 
-**Date:** October 22, 2025
+**Date:** November 1, 2025
 Arduino project in my Robotics class.
 We learned how to control a servo motor using the Serial Monitor by typing an angle.
 
