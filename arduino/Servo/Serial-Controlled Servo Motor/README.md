@@ -12,7 +12,9 @@ By sending a value from the Serial Monitor, the Arduino reads that value and mov
 ## Circuit
 
 -Servo signal pin → Pin 9
+
 -Servo VCC → 5V
+
 -Servo GND → GND
 
 ## Code
