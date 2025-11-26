@@ -23,5 +23,6 @@ You can find the Arduino sketch here: [serial_servo_control.ino](./serial_servo_
 
 ## Notes
 
-Valid input: any angle from 0 to 180.
-The servo moves after pressing Enter in the Serial Monitor.
+-Valid input: any angle from 0 to 180.
+
+-The servo moves after pressing Enter in the Serial Monitor.
