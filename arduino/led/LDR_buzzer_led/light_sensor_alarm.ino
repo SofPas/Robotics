@@ -15,12 +15,12 @@ void loop() {
   Serial.println (sensorValue);
   delay (400);
   if (sensorValue < 50) {
-    digitalWriten (LED_pin, HIGH);
+    digitalWrite (LED_pin, HIGH);
     delay (400);
     digitalWrite (LED_pin, LOW);
     delay (400);
-    digitalWrite (buzzPin, 1000);
-    delay (100)
+    digitalWrite (buzzPin, HIGH);
+    delay (100);
     digitalWrite (buzzPin, LOW);
     delay (100);
   }
